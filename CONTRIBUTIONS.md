@@ -72,7 +72,7 @@ graph TD
 The following code snippets illustrate the clean-room, declarative patterns implemented to automate and stabilize these multi-hardware layers.
 
 ###1. Heterogeneous Accelerator Scheduling (Kubernetes Topologies)
-```
+```bash
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -121,7 +121,7 @@ spec:
 ```
 
 ### 2. Host OS Automation (Idempotent Kernel Matrix Configuration)
-```
+```bash
 # Conceptual representation of the automated host validation sequence
 - name: Standardize Enterprise Host Infrastructure Layer
   hosts: ai_accelerator_nodes
