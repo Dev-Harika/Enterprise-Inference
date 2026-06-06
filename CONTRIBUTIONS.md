@@ -65,7 +65,7 @@ graph TD
     
     F -->|PR #100 Sync & Health Checks| G[OPEA Containerized Inference Services]
     G -->|Dynamic Persistent Volume Bindings| H[(Secure Model Mesh Storage)]
-
+```
 
 
 ##  Sanitized Infrastructure Blueprints
